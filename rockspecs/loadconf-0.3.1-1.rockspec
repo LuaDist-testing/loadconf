@@ -1,8 +1,8 @@
 package = "loadconf"
-version = "0.3.0-1"
+version = "0.3.1-1"
 source = {
    url = "git://github.com/Alloyed/loadconf",
-   tag = "v0.3.0"
+   tag = "v0.3.1"
 }
 description = {
    homepage = "https://github.com/Alloyed/loadconf",
