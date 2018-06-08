@@ -142,7 +142,6 @@ local function friendly_error(opts)
 
 	return function(err)
 		local info = debug.getinfo(2, 'lS')
-		--print(info.source, info.currentline)
 		if info.short_src:match("loadconf.lua") then
 		    -- this is actually an internal error
 		    return err
@@ -241,7 +240,6 @@ end
 --  @return `love_config`
 --  @error
 function loadconf.parse_file(fname, opts)
-	print("parse_file", fname)
 	opts = opts or loadconf.default_opts
 	local str, err = slurp(fname)
 	if not str then return nil, err end
@@ -265,7 +263,7 @@ loadconf.default_opts = {
 	include_defaults = false
 }
 
---- The current stable love version, which right now is "0.10.1". Please
+--- The current stable love version, which right now is "0.10.2". Please
 --  submit an issue/pull request if this is out of date, sorry~
 loadconf.stable_love = "0.10.2"
 
