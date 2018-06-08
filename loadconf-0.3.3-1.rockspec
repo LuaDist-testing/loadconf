@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "loadconf"
-version = "0.3.2-1"
+version = "0.3.3-1"
 -- LuaDist source
 source = {
-  tag = "0.3.2-1",
+  tag = "0.3.3-1",
   url = "git://github.com/LuaDist-testing/loadconf.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/Alloyed/loadconf",
---    tag = "v0.3.2"
+--    tag = "v0.3.3"
 -- }
 description = {
    homepage = "https://github.com/Alloyed/loadconf",
